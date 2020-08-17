@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Ticket number:"
+            tools:ignore="DuplicateIds">
+
+        </TextView>
+        <TextView
+            android:id="@+id/ticketEditNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:layout_weight="1">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Customer Name:"
+            tools:ignore="DuplicateIds">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ticketEditName"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:layout_weight="1">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Customer Email:"
+            tools:ignore="DuplicateIds">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ticketEditEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:layout_weight="1">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Customer Mobile:"
+            tools:ignore="DuplicateIds">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ticketEditMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:layout_weight="1">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+
+            android:layout_weight="1"
+            android:text="Puchase Date:"
+            tools:ignore="DuplicateIds">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ticketEditDate"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:layout_weight="1">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

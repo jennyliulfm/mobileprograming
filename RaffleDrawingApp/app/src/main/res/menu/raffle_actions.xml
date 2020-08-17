@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/releaseraffle"
+        android:title="Publish Raffle Online" />
+
+    <item android:id="@+id/editRaffle"
+        android:title="Edit Raffle"/>
+
+    <item android:id="@+id/deleteraffle"
+        android:title="Remove Raffle">
+    </item>
+
+    <item android:id="@+id/viewTicket"
+        android:title="View Ticket"/>
+
+    <item android:id="@+id/sellTicket"
+        android:title="Sell Ticket"/>
+
+    <item android:id="@+id/editTicket"
+        android:title="Edit Ticket"/>
+
+    <item android:id="@+id/deleteTicket"
+        android:title="Delete Ticket"/>
+
+    <item android:id="@+id/drawRaffle"
+        android:title="Draw Prize"/>
+
+
+</menu>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellTicket"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.80">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="Ticket Amount"
+                android:layout_weight="1">
+            </TextView>
+
+            <EditText
+                android:id="@+id/sellTicketNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="Maximum is 3 tickets"
+                android:textColorHint="@color/colorPrimary"
+                android:background="@drawable/rounded_border_edittext"
+                android:gravity="center">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="Ticket Prices"
+                android:layout_weight="1">
+            </TextView>
+
+            <EditText
+                android:id="@+id/sellticektprice"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:background="@drawable/rounded_border_edittext"
+                android:gravity="center">
+            </EditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="Customer Name"
+                android:layout_weight="1" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/sellticektName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border_edittext"
+                android:gravity="center">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="Customer Email"
+                android:layout_weight="1"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/sellticektEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/rounded_border_edittext"
+                android:gravity="center">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="Customer Telephone"
+                android:layout_weight="1">
+            </TextView>
+
+            <EditText
+                android:id="@+id/sellticektTelephone"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="phone"
+                android:background="@drawable/rounded_border_edittext"
+                android:gravity="center">
+            </EditText>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.20">
+
+        <Button
+            android:id="@+id/sellticketCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="Cancel"
+            android:layout_weight="1">
+        </Button>
+
+        <Button
+            android:id="@+id/sellticketConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Confirm"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

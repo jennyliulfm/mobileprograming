@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarignDrawing"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Please input the margin number"
+            android:layout_weight="1">
+        </TextView>
+
+        <EditText
+            android:id="@+id/marginticketNumber"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:background="@drawable/rounded_border_edittext"
+            android:gravity="center">
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.20">
+
+        <Button
+            android:id="@+id/marginticketConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Confirm"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
